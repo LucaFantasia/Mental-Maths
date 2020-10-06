@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Mental Maths</title>
+            <link href="UI.css" rel="stylesheet" type="text/css">
+        </head>
+        <body>
+            <table>
+                <tr>
+                    <td colspan="3">
+                        <h1>Mental Mathematics</h1>
+                        <p>Press <b>TAB</b> to reveal new question</p>
+                        <p>Press <b>ENTER</b> to submit answer</p>
+                    </td>
+                    <td id="time" class="r2" rowspan="2">
+                        <h2>30 <br> seconds</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="num1" class="visual; r2">
+                        <h2>#</h2>
+                    </td>
+                    <td id="operator" class="visual; r2">
+                        <h2>+</h2>
+                    </td>
+                    <td id="num2" class="visual; r2">
+                        <h2>#</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="visual" colspan="3">
+                        <input type="text" id="answer">
+                    </td>
+                    <td id="timeTaken" class="visual">
+                        <h2>10s</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <h2 id="cw"></h2>
+                    </td>
+                </tr>
+            </table>
+            <script src="MentalMath.js"></script>
+        </body>
+    </html>

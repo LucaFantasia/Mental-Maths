@@ -1,0 +1,22 @@
+table,tr,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table{
+    width: 100%;
+}
+td{
+    text-align: center;
+}
+.visual{
+    height: 75px;
+}
+input{
+    height: 75%;
+    width: 90%;
+    font-size: 30px;
+    text-align: center;
+}
+.r2{
+    width: 25%;
+}
