@@ -1,2 +1,2 @@
-# Mental-Maths
+mentalmaths
 Mental Mathematics
